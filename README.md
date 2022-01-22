@@ -14,8 +14,8 @@ In your `pubspec.yml` add the following line:
 	  [...]
 	  plugin_zoomed:
 	    git:
-	      url: https://github.com/elpsk/audio_wave
-	      ref: main
+	      url: https://github.com/elpsk/flutter_zoomed
+	      ref: master
 	
 	  [...]
 	  
