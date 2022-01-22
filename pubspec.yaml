@@ -1,0 +1,26 @@
+name: plugin_zoomed
+description: Identify an iOS screen zoomed.
+version: 1.0.0
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: it.albertopasca.zoomed.plugin_zoomed
+        pluginClass: PluginZoomedPlugin
+      ios:
+        pluginClass: PluginZoomedPlugin
